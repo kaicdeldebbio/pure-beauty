@@ -1,0 +1,50 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background: url(../src/img/background.png) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.copyright {
+    font-family: 'Playfair Display', serif;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.link-tree__link2 {
+text-decoration: none;
+color: white;
+}
+
+.link-tree__button2 {
+    display: flex;
+    margin: 1rem auto;
+    padding: .5rem 1rem;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    transition: .5s;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+    background-color: #594649;
+}
+
+.link-tree__frida {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    color: white;
+}
+
+.link-tree__button2:hover {
+    transition: .5s;
+    transform: scale(1.10);
+}
